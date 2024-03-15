@@ -1,0 +1,7 @@
+path: /home/dskinne3/TrashDetector/data
+train: images/train
+val: images/train
+
+# Classes
+nc: 2
+names: ['Trash', 'Recycle']

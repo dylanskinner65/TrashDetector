@@ -5,7 +5,6 @@ model = YOLO('yolov8n.pt')
 
 # Use the model
 results = model.train(data='config.yaml', 
-                      epochs=1, 
-                      batch=2,
+                      epochs=100, 
                       imgsz=640,
-                      device='mps')
+                      device=[0,1,2,3])
