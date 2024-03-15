@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO('yolov8n.pt')
 
 # Use the model
-results = model.train(data='config.yaml', 
+results = model.train(data='config_sc.yaml', 
                       epochs=100, 
                       imgsz=640,
                       device=[0,1,2,3])
