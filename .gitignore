@@ -7,6 +7,8 @@ __pycache__/
 data/images
 data/labels
 
+.DS_Store
+
 # C extensions
 *.so
 
