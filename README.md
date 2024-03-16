@@ -9,3 +9,6 @@ to do multi-GPU training on a super computer, and build a streamlit app to allow
 Here is a video of how my project works!
 
 <!-- ![Example Gif](video/example_video.gif) -->
+
+https://github.com/dylanskinner65/TrashDetector/assets/98558549/f8a6b3c4-e77b-4675-99ca-f7c107482723
+
