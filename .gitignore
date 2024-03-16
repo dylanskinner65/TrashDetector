@@ -8,6 +8,7 @@ data/images
 data/labels
 
 .DS_Store
+.mov
 
 # C extensions
 *.so
