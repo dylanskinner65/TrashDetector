@@ -10,6 +10,8 @@ data/labels
 .DS_Store
 .mov
 
+videos/
+
 # C extensions
 *.so
 
