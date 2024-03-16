@@ -8,4 +8,4 @@ to do multi-GPU training on a super computer, and build a streamlit app to allow
 
 Here is a video of how my project works!
 
-![Example Gif](example_video.gif)
+![Example Gif](https://drive.google.com/file/d/1BcgGm0tKjikcLOwqEVdsmj0PuELUCP04/view?usp=share_link)
