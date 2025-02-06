@@ -20,7 +20,7 @@ def detect_objects(image, column):
         im_rgb = Image.fromarray(im_bgr[..., ::-1])  # RGB-order PIL image
 
     # Show predicted image next to the input image
-    column.image(im_rgb, caption=f"Predicted Image", use_column_width=True)
+    column.image(im_rgb, caption="Predicted Image", use_container_width=True)
 
 # Main Streamlit app code
 def main():
@@ -36,7 +36,7 @@ def main():
     if uploaded_image is not None:
         # Display uploaded image
         image = Image.open(uploaded_image)
-        col1.image(image, caption="Uploaded Image", use_column_width=True)
+        col1.image(image, caption="Uploaded Image", use_container_width=True)
 
         # Perform object detection when button is clicked
         if st.button("Detect Objects"):
