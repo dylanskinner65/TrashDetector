@@ -1,16 +1,16 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-# from ultralytics import YOLO
+from ultralytics import YOLO
 import pickle
 
 def detect_objects(image, column):
     # Load in the model
-    # model = YOLO("best.pt")
+    model = YOLO("best.pt")
     
     # Load in the model by pickle
-    with open("model.pkl", "rb") as f:
-        model = pickle.load(f)
+    # with open("model.pkl", "rb") as f:
+    #     model = pickle.load(f)
 
     # Perform object detection
     prediction = model.predict(image)
