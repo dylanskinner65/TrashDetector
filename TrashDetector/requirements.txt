@@ -2,7 +2,7 @@ pandas
 numpy
 matplotlib
 streamlit
-ultralytics
-zenml[server]
-mlflow
+# ultralytics
+# zenml[server]
+# mlflow
 pillow
